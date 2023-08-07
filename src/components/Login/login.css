@@ -1,0 +1,33 @@
+form.login, form.register {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    width: 30%;
+    color: white;
+    background-color: #888;
+    border: none;
+    border-radius: 10px;
+}
+
+form h2 {
+    text-align: center;
+    font-weight: 1.9rem;
+    font-size: 50px;
+}

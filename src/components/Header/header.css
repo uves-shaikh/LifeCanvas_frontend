@@ -1,0 +1,33 @@
+body{
+    color: #222;
+}
+
+main{
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 50px; */
+    align-items: center;
+    background-color: lightblue;
+    height: 80px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header a.logo {
+    font-weight: bold;
+    font-size: large;
+}
+
+header nav{
+    display: flex;
+    gap: 15px;
+}
